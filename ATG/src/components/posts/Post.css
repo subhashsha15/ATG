@@ -1,0 +1,124 @@
+.card {
+    width: 692px;
+    /* height: 472px; */
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    background: #FFF;
+}
+
+.card-title {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.para {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.para p {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    max-width: 500px;
+    line-height: 134.167%;
+}
+
+.para-2 {
+    color: #5C5C5C;
+    font-family: IBM Plex Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.167%;
+}
+
+.profile-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-image span {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: normal; */
+}
+
+.profile-views {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.views,
+.profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.views img {
+    margin-top: 2px;
+}
+
+.share-btn {
+    width: 42px;
+    height: 36px;
+    border-radius: 2px;
+    background: #EDEEF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-btn img {
+    width: 18px;
+    height: 18px;
+}
+
+.meeting-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 16px;
+}
+
+.meeting-time,
+.meeting-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body button {
+    width: 652px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 0.7px solid #A9AEB8;
+    background: #FFF;
+    color: #E56135;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.lastpost-btn {
+    color: #02B875 !important;
+}
